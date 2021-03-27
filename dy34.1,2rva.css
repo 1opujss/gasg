@@ -1,0 +1,148 @@
+/* day 34.1,2 assignment rv */
+@media (max-width:1517px) {
+  .wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+  }
+}
+@media (max-width:860px) {
+  .header-area{
+    flex-direction: column;
+  }
+  .me-describe p {
+    padding-right: 0px;
+  }
+  .myself .me-img {
+    width: 88em;
+  }
+  .myself .wrapper{
+    column-gap: 3%;
+  }
+}
+@media (max-width:786px) {
+  .header-right ul{
+    text-align: center;
+    margin-top: 20px;
+  }
+  .header-right ul li a {
+    font-size: 20px;
+    padding: 7px 18px;
+    line-height: 33px;
+    border-right: 1px solid #4285f4;
+    transition: 0.5s;
+    font-family: arial, sans-serif;
+  }
+  .myself {
+    padding: 50px 0;
+  }
+  .myself .wrapper{
+    flex-direction: column;
+  }
+  .myself .me-img {
+    width:100%;
+    width: 30em !important;
+    margin: auto;
+  }
+  .me-describe {
+    text-align: center;
+  } 
+  .me-describe p {
+    font-size: 17px;
+    padding: 0;
+  }
+  .banner{
+    padding: 110px 0;
+  }
+  .banner-text h1 {
+    font-size: 29px;
+  }
+  .banner-text h2 {
+    font-size: 31px;
+  }
+  .service-box {
+    flex-direction: column;
+  }
+  .s-box-inner {
+    margin-bottom: 30px;
+  }
+}
+/* done */
+@media (max-width:616px) {
+  .myself .me-img {
+    width: 20em !important;
+  }
+}
+@media (max-width:448px) {
+  .header-right ul li a {
+    font-size: 15px;
+    padding: 5px 11px;
+    line-height: 30px;
+  }
+  .banner-text h1 {
+    font-size: 19px;
+  }
+  .myself .me-img {
+    width: 13em !important;
+  }
+  .myself .wrapper {
+    padding: 0 2em;
+  }
+  .service {
+    padding: 60px 0;
+  }
+  .f-wrap {
+    flex-direction: column;
+    text-align: center;
+  }
+  .f-left{
+    margin-bottom: 15px;
+  }
+}
+@media (max-width:282px){
+  .header-left {
+    margin-top: 23px;
+  }
+  .header-right ul li a {
+    font-size: 11px;
+    padding: 0px 3px;
+    line-height: 31px;
+  }
+  .banner {
+    padding: 70px 0;
+  }
+  .banner-text h2 {
+    font-size: 16px;
+  }
+  .banner-text h1 {
+    font-size: 12px;
+  }
+  .myself .me-img {
+    width: 7em !important;
+  }
+  .me-describe h3 {
+    margin: 20px 0;
+    font-size: 15px;
+    word-spacing: 2px;
+  }
+  .me-describe p {
+    font-size: 12px;
+    padding: 0;
+  }
+  .s-box-inner {
+    padding: 20px 20px;
+  }
+  .s-box-inner p {
+    font-size: 13px;
+    color: #0ff;
+  }
+  .f-left p {
+    font-size: 16px;
+  }
+  .f-right li a {
+    font-size: 15px;
+  }
+}
